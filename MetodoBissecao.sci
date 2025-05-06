@@ -30,5 +30,4 @@ while (k < nMax) & (abs(bk - ak) > epsilon1) & (abs(f(xm)) > epsilon2)
     end
 end
 
-// Corrigido: era 'xim', que não existe — o nome correto da variável é xm
 printf("Aproximadamente: %8.6f é a raiz, com %2d iterações\n", xm, k);
