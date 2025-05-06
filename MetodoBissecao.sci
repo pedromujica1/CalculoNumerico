@@ -1,9 +1,8 @@
 clear();
-// clc(); // Comentado: causa erro ao usar com exec()
 
 printf("Aproximação pelo método da bisseção\n");
 
-// Correção da função: ^ no lugar de x3
+//Definindo função
 deff('y = f(x)', 'y = x^3 - 9*x + 3');
 
 ak = 0.0;
