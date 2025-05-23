@@ -62,8 +62,8 @@ printf("PROBLEMA 1.1 NÚMERO 1\n");
 
 //2. g(𝐱) = 𝐱^𝟐 + 𝐥𝐧(𝐱) no intervalo [𝟎,𝟓; 𝟏], com 𝛜 = 𝟏𝟎^−𝟓
 printf("PROBLEMA 1.1 NÚMERO 2\n");
-//deff('y = g(x)', 'y = x^2 + log(x)');   
-//raiz = bissecao(g, 0.5, 1.0, 1e-5, 1e-5, 100);
+deff('y = g(x)', 'y = x^2 + log(x)');   
+raiz = bissecao(g, 0.5, 1.0, 1e-5, 1e-5, 100);
 
 //-------------Problema 1.2: Obter uma aproximação para primeira raiz positiva da função:----------------
 //1. 𝐟(𝐱) = 𝐞^−𝐱 − 𝐬𝐞𝐧(𝐱), com 𝛜 = 𝟏𝟎^−𝟓
